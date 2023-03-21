@@ -1,0 +1,27 @@
+.history .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.history .container .box{
+    overflow: hidden;
+    color: white;
+}
+
+.history .container .box img{
+    width: 100%;
+}
+.history .container .box video{
+    height: 100%;
+    padding: 20px;
+    float: left;
+    width: 100%;
+
+}
+
+.history .container .text_box{
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
